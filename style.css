@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --boreder-color: #8c67d1;
+  --text-white: #fff;
+  --time-text-color: #ffcb6b;
+  --time-text-font: "ZCOOL QingKe HuangYou", cursive;
+  --main-text-font: "Rye", cursive;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 100vh;
+  background-color: #111;
+}
+.time-text {
+  border: 5px solid var(--boreder-color);
+  box-shadow: 2px 2px 30px 10px #a87afe, 1px 3px 100px 20px #a87afe;
+  padding: 20px 60px;
+  font-size: 40px;
+  letter-spacing: 5px;
+  border-radius: 15px;
+  color: var(--time-text-color);
+  font-family: var(--time-text-font);
+}
+.main-text {
+  font-size: 70px;
+  letter-spacing: 4px;
+  text-align: center;
+  font-family: var(--main-text-font);
+  color: var(--text-white);
+  background: radial-gradient(
+    circle farthest-side at top center,
+    #6e5ae3 35%,
+    #fcb734 70%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+img {
+  width: 30%;
+  height: auto;
+}
+
+@media (max-width: 769px) {
+  .main-text {
+    font-size: 39px;
+  }
+}
