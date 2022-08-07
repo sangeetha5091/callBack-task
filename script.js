@@ -33,7 +33,7 @@ setTimeout(() => {
                         const img = document.createElement("img");
                         img.setAttribute("src", "image1.png");
                         document.body.append(h1_Content, img);
-                      }, 1000);
+                      }, 2000);
                     }, 1000);
                   }, 1000);
                 }, 1000);
