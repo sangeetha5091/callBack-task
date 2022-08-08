@@ -44,7 +44,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fadeIn 0.4s linear;
+  animation: fadeIn 0.7s easeIn;
 }
 @keyframes fadeIn {
   from {
